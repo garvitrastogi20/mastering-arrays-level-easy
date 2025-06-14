@@ -10,14 +10,16 @@ This repository contains easy-level **array problems** solved in **C++**, with a
 |------|----------------------------------------------------|-----------------|------------------|
 | 1    | Largest Element in an Array                        | O(n)            | O(1)             |
 | 2    | Second Largest Element in an Array (No Sort)       | O(n)            | O(1)             |
-| 3    | Check if the Array is Sorted                       | O(n)            | O(1)             |
-| 4    | Remove Duplicates from Sorted Array                | O(n)            | O(1)             |
-| 5    | Left Rotate an Array by One Place                  | O(n)            | O(1)             |
-| 6    | Left Rotate an Array by D Places                   | O(n)            | O(1)             |
-| 7    | Move Zeros to End                                  | O(n)            | O(1)             |
-| 8    | Linear Search                                      | O(n)            | O(1)             |
-| 9    | Find Missing Number in an Array                    | O(n)            | O(1)             |
-| 10   | Maximum Consecutive Ones                           | O(n)            | O(1)             |
+| 3    | Second Smallest Element in an Array (No Sort)      | O(n)            | O(1)             |
+| 4    | Check if the Array is Sorted                       | O(n)            | O(1)             |
+| 5    | Remove Duplicates from Sorted Array                | O(n)            | O(1)             |
+| 6    | Left Rotate an Array by One Place                  | O(n)            | O(1)             |
+| 7    | Left Rotate an Array by D Places                   | O(n)            | O(1)             |
+| 8    | Move Zeros to End                                  | O(n)            | O(1)             |
+| 9    | Linear Search                                      | O(n)            | O(1)             |
+| 10   | Find Missing Number in an Array                    | O(n)            | O(1)             |
+| 11   | Maximum Consecutive Ones                           | O(n)            | O(1)             |
+
 
 ---
 
