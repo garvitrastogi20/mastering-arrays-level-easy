@@ -14,11 +14,13 @@ This repository contains easy-level **array problems** solved in **C++**, with a
 | 4    | Check if the Array is Sorted                       | O(n)            | O(1)             |
 | 5    | Remove Duplicates from Sorted Array                | O(n)            | O(1)             |
 | 6    | Left Rotate an Array by One Place                  | O(n)            | O(1)             |
-| 7    | Left Rotate an Array by D Places                   | O(n)            | O(1)             |
-| 8    | Move Zeros to End                                  | O(n)            | O(1)             |
-| 9    | Linear Search                                      | O(n)            | O(1)             |
-| 10   | Find Missing Number in an Array                    | O(n)            | O(1)             |
-| 11   | Maximum Consecutive Ones                           | O(n)            | O(1)             |
+| 7    | Left Rotate an Array by D Places (Brute Force)     | O(n × d)        | O(1)             |
+| 8    | Left Rotate an Array by D Places (Optimal Method)  | O(n)            | O(1)             |
+| 9    | Move Zeros to End (Brute Force)                    | O(n²)           | O(n)             |
+| 10   | Move Zeros to End (Optimal Method)                 | O(n)            | O(1)             |
+| 11   | Linear Search                                      | O(n)            | O(1)             |
+| 12   | Find Missing Number in an Array                    | O(n)            | O(1)             |
+| 13   | Maximum Consecutive Ones                           | O(n)            | O(1)             |
 
 
 ---
