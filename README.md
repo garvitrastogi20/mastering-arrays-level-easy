@@ -1,48 +1,123 @@
-# 📘 Mastering Arrays – Level Easy
+# 🚀 Mastering Arrays in C++ – Problem Solving Repository
 
-This repository contains easy-level **array problems** solved in **C++**, with a strong focus on writing **optimal solutions**. Each problem is implemented with the best possible time and space complexity, making it ideal for beginners preparing for coding interviews and building a solid DSA foundation.
-
----
-
-## 📚 Table of Contents
-
-| S.No | Problem Title                                      | Time Complexity | Space Complexity |
-|------|----------------------------------------------------|-----------------|------------------|
-| 1    | Largest Element in an Array                        | O(n)            | O(1)             |
-| 2    | Second Largest Element in an Array (No Sort)       | O(n)            | O(1)             |
-| 3    | Second Smallest Element in an Array (No Sort)      | O(n)            | O(1)             |
-| 4    | Check if the Array is Sorted                       | O(n)            | O(1)             |
-| 5    | Remove Duplicates from Sorted Array                | O(n)            | O(1)             |
-| 6    | Left Rotate an Array by One Place                  | O(n)            | O(1)             |
-| 7    | Left Rotate an Array by D Places (Brute Force)     | O(n × d)        | O(1)             |
-| 8    | Left Rotate an Array by D Places (Optimal Method)  | O(n)            | O(1)             |
-| 9    | Move Zeros to End (Brute Force)                    | O(n²)           | O(n)             |
-| 10   | Move Zeros to End (Optimal Method)                 | O(n)            | O(1)             |
-| 11   | Linear Search                                      | O(n)            | O(1)             |
-| 12   | Find Missing Number in an Array                    | O(n)            | O(1)             |
-| 13   | Maximum Consecutive Ones                           | O(n)            | O(1)             |
-
+Welcome to my **DSA Problem-Solving** repository focused on mastering **array-based problems** in **C++**, covering brute force to optimal approaches. This structured approach helps strengthen logic, coding confidence, and interview preparation.
 
 ---
 
-## 🛠 How to Use This Repo
+## 📘 Topics Covered
 
-- Navigate to the `problems/` folder (or root directory if not separated).
-- Each file is named based on the problem title.
-- Every solution includes:
-  - A brief explanation
-  - Time & space complexity
-  - Clean, optimal C++ code
-
----
-
-## ✍️ Author
-
-**Garvit Rastogi**  
-[GitHub Profile](https://github.com/garvitrastogi20)
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------|----------|-----------------|------------------|-------------|
+| 1 | [checkwhetherarrayissorted.cpp](./checkwhetherarrayissorted.cpp) | Simple Iteration | O(n) | O(1) | Verifies if array is sorted in non-decreasing order. |
+| 2 | [linearsearch.cpp](./linearsearch.cpp) | Brute Force | O(n) | O(1) | Searches for an element linearly. |
+| 3 | [largestelement.cpp](./largestelement.cpp) | Scan | O(n) | O(1) | Finds the largest element in the array. |
+| 4 | [secondlargest.cpp](./secondlargest.cpp) | Single Pass | O(n) | O(1) | Finds the second largest element without sorting. |
+| 5 | [secondsmallest.cpp](./secondsmallest.cpp) | Single Pass | O(n) | O(1) | Finds the second smallest element without sorting. |
 
 ---
 
-## 📜 License
+## 🔁 Rotations
 
-This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 6 | [leftrotatebyoneplace.cpp](./leftrotatebyoneplace.cpp) | Brute | O(n) | O(1) | Shifts all elements one index left. |
+| 7 | [leftrotatebykoptimalsolution.cpp](./leftrotatebykoptimalsolution.cpp) | Optimal (Reversal) | O(n) | O(1) | Rotates array by `k` efficiently using reverse operations. |
+
+---
+
+## ❓ Missing Number from 0 to n
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 8 | [missingnumberbruteforce.cpp](./missingnumberbruteforce.cpp) | Brute Force | O(n²) | O(1) | For each number from 0 to n, checks if it exists. |
+| 9 | [missingnumberbettersolution.cpp](./missingnumberbettersolution.cpp) | Better (Hashing) | O(n) | O(n) | Marks presence using extra space. |
+| 10 | [missingnumberoptimalSUM.cpp](./missingnumberoptimalSUM.cpp) | Optimal (Sum Formula) | O(n) | O(1) | Uses formula `n*(n+1)/2` minus array sum. |
+| 11 | [missingnumberoptimalXOR.cpp](./missingnumberoptimalXOR.cpp) | Optimal (XOR) | O(n) | O(1) | XORs indices and elements to isolate missing number. |
+
+---
+
+## 🔢 Number Appearing Once (All Others Twice)
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 12 | [numberappearingonce.cpp](./numberappearingonce.cpp) | Brute Force | O(n²) | O(1) | Count frequency for each element. |
+| 13 | [numberappearingonceoptimal.cpp](./numberappearingonceoptimal.cpp) | Optimal (XOR) | O(n) | O(1) | XOR all elements; duplicates cancel out. |
+
+---
+
+## 0️⃣ Move Zeros to End
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 14 | [placeallzeroatendbruteforce.cpp](./placeallzeroatendbruteforce.cpp) | Brute Force | O(n) | O(n) | Copies non-zeros to new array. |
+| 15 | [placeallzerosatendoptimalsolution.cpp](./placeallzerosatendoptimalsolution.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Swaps non-zero elements forward in-place. |
+
+---
+
+## ✂️ Remove Duplicates from Sorted Array
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 16 | [removeduplicate.cpp](./removeduplicate.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Removes duplicates in-place from sorted array. |
+
+---
+
+## 🤝 Intersection of Two Sorted Arrays
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 17 | [intersectionoftwosortedarraybruteforce.cpp](./intersectionoftwosortedarraybruteforce.cpp) | Brute Force | O(n * m) | O(1) | Compares every element from first to every in second. |
+| 18 | [intersectionoftwosortedarraysoptimal.cpp](./intersectionoftwosortedarraysoptimal.cpp) | Optimal (Two-Pointer) | O(n + m) | O(1) | Uses two-pointer technique to find common elements. |
+
+---
+
+## 🔗 Union of Two Sorted Arrays
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 19 | [unionoftwosortedarraysbruteforce.cpp](./unionoftwosortedarraysbruteforce.cpp) | Brute Force | O((n + m) log(n + m)) | O(n + m) | Combines and sorts using set to remove duplicates. |
+| 20 | [unionoftwosortedarraysoptimalapproach.cpp](./unionoftwosortedarraysoptimalapproach.cpp) | Optimal (Two-Pointer) | O(n + m) | O(n + m) | Merges arrays while skipping duplicates. |
+
+---
+
+## 🔢 Maximum Consecutive 1s
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 21 | [maximumconsecutiveones.cpp](./maximumconsecutiveones.cpp) | Counting | O(n) | O(1) | Tracks longest streak of continuous 1s. |
+
+---
+
+## 🧠 Learning Outcomes
+
+- Mastered brute-to-optimal transitions  
+- Strengthened core array manipulation logic  
+- Learned in-place optimizations, hashing, and bit manipulation (XOR)  
+- Built confidence for technical interviews  
+
+---
+
+## 🔧 Tech Stack
+
+- Language: **C++**  
+- Tools: G++, CodeBlocks, VSCode  
+- Concepts: Arrays, XOR, Hashing, Two-Pointers, In-place Operations  
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/array-dsa-cpp.git
+cd array-dsa-cpp
+g++ problem_name.cpp -o output
+./output
+```
+
+## 📫 Contact
+
+Created by Garvit Rastogi 
+🔗 GitHub: [@garvitrastogi20](https://github.com/garvitrastogi20)  
+📧 Email: garvitrastogi2055@gmail.com
+
+⭐ If you find this useful, star the repo and share it with fellow learners!
