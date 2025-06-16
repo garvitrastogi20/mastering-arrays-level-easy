@@ -8,11 +8,11 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------|----------|-----------------|------------------|-------------|
-| 1 | [checkwhetherarrayissorted.cpp](./checkwhetherarrayissorted.cpp) | Simple Iteration | O(n) | O(1) | Verifies if array is sorted in non-decreasing order. |
-| 2 | [linearsearch.cpp](./linearsearch.cpp) | Brute Force | O(n) | O(1) | Searches for an element linearly. |
-| 3 | [largestelement.cpp](./largestelement.cpp) | Scan | O(n) | O(1) | Finds the largest element in the array. |
-| 4 | [secondlargest.cpp](./secondlargest.cpp) | Single Pass | O(n) | O(1) | Finds the second largest element without sorting. |
-| 5 | [secondsmallest.cpp](./secondsmallest.cpp) | Single Pass | O(n) | O(1) | Finds the second smallest element without sorting. |
+| 1 | [checkwhetherarrayissorted.cpp](./codes/checkwhetherarrayissorted.cpp) | Simple Iteration | O(n) | O(1) | Verifies if array is sorted in non-decreasing order. |
+| 2 | [linearsearch.cpp](./codes/linearsearch.cpp) | Brute Force | O(n) | O(1) | Searches for an element linearly. |
+| 3 | [largestelement.cpp](./codes/largestelement.cpp) | Scan | O(n) | O(1) | Finds the largest element in the array. |
+| 4 | [secondlargest.cpp](./codes/secondlargest.cpp) | Single Pass | O(n) | O(1) | Finds the second largest element without sorting. |
+| 5 | [secondsmallest.cpp](./codes/secondsmallest.cpp) | Single Pass | O(n) | O(1) | Finds the second smallest element without sorting. |
 
 ---
 
@@ -20,8 +20,8 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 6 | [leftrotatebyoneplace.cpp](./leftrotatebyoneplace.cpp) | Brute | O(n) | O(1) | Shifts all elements one index left. |
-| 7 | [leftrotatebykoptimalsolution.cpp](./leftrotatebykoptimalsolution.cpp) | Optimal (Reversal) | O(n) | O(1) | Rotates array by `k` efficiently using reverse operations. |
+| 6 | [leftrotatebyoneplace.cpp](./codes/leftrotatebyoneplace.cpp) | Brute | O(n) | O(1) | Shifts all elements one index left. |
+| 7 | [leftrotatebykoptimalsolution.cpp](./codes/leftrotatebykoptimalsolution.cpp) | Optimal (Reversal) | O(n) | O(1) | Rotates array by `k` efficiently using reverse operations. |
 
 ---
 
@@ -29,10 +29,10 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 8 | [missingnumberbruteforce.cpp](./missingnumberbruteforce.cpp) | Brute Force | O(n²) | O(1) | For each number from 0 to n, checks if it exists. |
-| 9 | [missingnumberbettersolution.cpp](./missingnumberbettersolution.cpp) | Better (Hashing) | O(n) | O(n) | Marks presence using extra space. |
-| 10 | [missingnumberoptimalSUM.cpp](./missingnumberoptimalSUM.cpp) | Optimal (Sum Formula) | O(n) | O(1) | Uses formula `n*(n+1)/2` minus array sum. |
-| 11 | [missingnumberoptimalXOR.cpp](./missingnumberoptimalXOR.cpp) | Optimal (XOR) | O(n) | O(1) | XORs indices and elements to isolate missing number. |
+| 8 | [missingnumberbruteforce.cpp](./codes/missingnumberbruteforce.cpp) | Brute Force | O(n²) | O(1) | For each number from 0 to n, checks if it exists. |
+| 9 | [missingnumberbettersolution.cpp](./codes/missingnumberbettersolution.cpp) | Better (Hashing) | O(n) | O(n) | Marks presence using extra space. |
+| 10 | [missingnumberoptimalSUM.cpp](./codes/missingnumberoptimalSUM.cpp) | Optimal (Sum Formula) | O(n) | O(1) | Uses formula `n*(n+1)/2` minus array sum. |
+| 11 | [missingnumberoptimalXOR.cpp](./codes/missingnumberoptimalXOR.cpp) | Optimal (XOR) | O(n) | O(1) | XORs indices and elements to isolate missing number. |
 
 ---
 
@@ -40,8 +40,8 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 12 | [numberappearingonce.cpp](./numberappearingonce.cpp) | Brute Force | O(n²) | O(1) | Count frequency for each element. |
-| 13 | [numberappearingonceoptimal.cpp](./numberappearingonceoptimal.cpp) | Optimal (XOR) | O(n) | O(1) | XOR all elements; duplicates cancel out. |
+| 12 | [numberappearingonce.cpp](./codes/numberappearingonce.cpp) | Brute Force | O(n²) | O(1) | Count frequency for each element. |
+| 13 | [numberappearingonceoptimal.cpp](./codes/numberappearingonceoptimal.cpp) | Optimal (XOR) | O(n) | O(1) | XOR all elements; duplicates cancel out. |
 
 ---
 
@@ -49,8 +49,8 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 14 | [placeallzeroatendbruteforce.cpp](./placeallzeroatendbruteforce.cpp) | Brute Force | O(n) | O(n) | Copies non-zeros to new array. |
-| 15 | [placeallzerosatendoptimalsolution.cpp](./placeallzerosatendoptimalsolution.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Swaps non-zero elements forward in-place. |
+| 14 | [placeallzeroatendbruteforce.cpp](./codes/placeallzeroatendbruteforce.cpp) | Brute Force | O(n) | O(n) | Copies non-zeros to new array. |
+| 15 | [placeallzerosatendoptimalsolution.cpp](./codes/placeallzerosatendoptimalsolution.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Swaps non-zero elements forward in-place. |
 
 ---
 
@@ -58,7 +58,7 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 16 | [removeduplicate.cpp](./removeduplicate.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Removes duplicates in-place from sorted array. |
+| 16 | [removeduplicate.cpp](./codes/removeduplicate.cpp) | Optimal (Two-Pointer) | O(n) | O(1) | Removes duplicates in-place from sorted array. |
 
 ---
 
@@ -66,8 +66,8 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 17 | [intersectionoftwosortedarraybruteforce.cpp](./intersectionoftwosortedarraybruteforce.cpp) | Brute Force | O(n * m) | O(1) | Compares every element from first to every in second. |
-| 18 | [intersectionoftwosortedarraysoptimal.cpp](./intersectionoftwosortedarraysoptimal.cpp) | Optimal (Two-Pointer) | O(n + m) | O(1) | Uses two-pointer technique to find common elements. |
+| 17 | [intersectionoftwosortedarraybruteforce.cpp](./codes/intersectionoftwosortedarraybruteforce.cpp) | Brute Force | O(n * m) | O(1) | Compares every element from first to every in second. |
+| 18 | [intersectionoftwosortedarraysoptimal.cpp](./codes/intersectionoftwosortedarraysoptimal.cpp) | Optimal (Two-Pointer) | O(n + m) | O(1) | Uses two-pointer technique to find common elements. |
 
 ---
 
@@ -75,8 +75,8 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 19 | [unionoftwosortedarraysbruteforce.cpp](./unionoftwosortedarraysbruteforce.cpp) | Brute Force | O((n + m) log(n + m)) | O(n + m) | Combines and sorts using set to remove duplicates. |
-| 20 | [unionoftwosortedarraysoptimalapproach.cpp](./unionoftwosortedarraysoptimalapproach.cpp) | Optimal (Two-Pointer) | O(n + m) | O(n + m) | Merges arrays while skipping duplicates. |
+| 19 | [unionoftwosortedarraysbruteforce.cpp](./codes/unionoftwosortedarraysbruteforce.cpp) | Brute Force | O((n + m) log(n + m)) | O(n + m) | Combines and sorts using set to remove duplicates. |
+| 20 | [unionoftwosortedarraysoptimalapproach.cpp](./codes/unionoftwosortedarraysoptimalapproach.cpp) | Optimal (Two-Pointer) | O(n + m) | O(n + m) | Merges arrays while skipping duplicates. |
 
 ---
 
@@ -84,8 +84,7 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 
 | S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
 |------|---------------------------|----------|-----------------|------------------|-------------|
-| 21 | [maximumconsecutiveones.cpp](./maximumconsecutiveones.cpp) | Counting | O(n) | O(1) | Tracks longest streak of continuous 1s. |
-
+| 21 | [maximumconsecutiveones.cpp](./codes/maximumconsecutiveones.cpp) | Counting | O(n) | O(1) | Tracks longest streak of continuous 1s. |
 ---
 
 ## 🧠 Learning Outcomes
