@@ -87,6 +87,13 @@ Welcome to my **DSA Problem-Solving** repository focused on mastering **array-ba
 | 21 | [maximumconsecutiveones.cpp](./codes/maximumconsecutiveones.cpp) | Counting | O(n) | O(1) | Tracks longest streak of continuous 1s. |
 ---
 
+## 🧩 Stack & Bracket Matching
+
+| S.No | Problem Title | Approach | Time Complexity | Space Complexity | Description |
+|------|---------------------------|----------|-----------------|------------------|-------------|
+| 22 | [validparanthesis.cpp](./codes/validparanthesis.cpp) | Stack | O(n) | O(n) | Checks for valid matching of parentheses using stack logic. |
+
+
 ## 🧠 Learning Outcomes
 
 - Mastered brute-to-optimal transitions  
